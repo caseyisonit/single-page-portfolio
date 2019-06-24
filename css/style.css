@@ -20,10 +20,17 @@ p {
   padding-top: 15px;
 }
 
+.row {
+  margin-top: 25px;
+}
+
 .card-title {
   font-family: Righteous, Arial, Helvetica, sans-serif;
-  font-size: 4vh !important;
+  font-size: 6vh !important;
+  padding-top: 1vh;
+  line-height: 6vh !important;
 }
+
 
 .subheader {
   text-align: left;
@@ -50,6 +57,26 @@ p {
 }
 
 #daily-sweat {
+  background: -webkit-linear-gradient(45deg, #02aab0, #00cdac);
+}
+
+#trivia {
+  background: -webkit-linear-gradient(45deg,  cyan, purple);
+}
+
+#train {
+  background: -webkit-linear-gradient(45deg,  magenta, gold);
+}
+
+#crystal-collector {
+  background: -webkit-linear-gradient(45deg,  limegreen, darkgreen);
+}
+
+#psychic {
+  background: -webkit-linear-gradient(45deg,  lightblue, navy);
+}
+
+#gif {
   background: -webkit-linear-gradient(45deg,  coral, red);
 }
 
