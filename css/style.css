@@ -1,0 +1,84 @@
+h1, .header, .brand-logo {
+  font-family: Righteous, Arial, Helvetica, sans-serif;
+  background: -webkit-linear-gradient(45deg,  coral, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+}
+
+body {
+  font-family: Quicksand, Arial, Helvetica, sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 1.5rem;
+  padding-top: 15px;
+}
+
+.card-title {
+  font-family: Righteous, Arial, Helvetica, sans-serif;
+  font-size: 4vh !important;
+}
+
+.subheader {
+  text-align: left;
+  color: #444;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+#resume {
+  margin: 0 0 75px 15px;
+}
+
+#daily-sweat {
+  background: -webkit-linear-gradient(45deg,  coral, red);
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  nav .brand-logo {
+    left: 0;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+
+  }
+}
+
+
+footer.page-footer {
+  margin: 0;
+}
