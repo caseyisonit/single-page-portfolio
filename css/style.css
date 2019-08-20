@@ -26,9 +26,9 @@ p {
 
 .card-title {
   font-family: Righteous, Arial, Helvetica, sans-serif;
-  font-size: 6vh !important;
-  padding-top: 1vh;
-  line-height: 6vh !important;
+  font-size: 4vw !important;
+  padding-top: 1vw;
+  line-height: 4vw !important;
 }
 
 
@@ -57,7 +57,7 @@ p {
 }
 
 #daily-sweat {
-  background: -webkit-linear-gradient(45deg, #02aab0, #00cdac);
+  background: -webkit-linear-gradient(45deg, teal, #00cdac);
 }
 
 #trivia {
@@ -73,11 +73,15 @@ p {
 }
 
 #psychic {
-  background: -webkit-linear-gradient(45deg,  lightblue, navy);
+  background: -webkit-linear-gradient(45deg,  #537895, #09203f);
 }
 
 #gif {
   background: -webkit-linear-gradient(45deg,  coral, red);
+}
+
+#bulleted {
+  background: -webkit-linear-gradient(45deg, #feeb10, #fe4010)
 }
 
 @media only screen and (max-width : 992px) {
