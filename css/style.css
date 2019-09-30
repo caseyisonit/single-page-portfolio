@@ -26,15 +26,18 @@ p {
 
 .card-title {
   font-family: Righteous, Arial, Helvetica, sans-serif;
-  font-size: 4vw !important;
+  font-size: 5vh !important;
   padding-top: 1vw;
-  line-height: 4vw !important;
+  line-height: 5vh !important;
 }
 
 
 .subheader {
   text-align: left;
   color: #444;
+  font-size: 18px;
+  line-height: 1.5rem;
+  padding-bottom: 50px !important; 
 }
 
 .sidenav-trigger {
@@ -42,7 +45,7 @@ p {
 }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 450px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
@@ -53,11 +56,23 @@ p {
 }
 
 #resume {
-  margin: 0 0 75px 15px;
+  margin: 0 0 100px 15px;
+}
+
+#download-button {
+  margin: 0 20px 20px 0;
+}
+
+#stoned {
+  background: -webkit-linear-gradient(45deg, #01b3bf, #016a88);
 }
 
 #daily-sweat {
   background: -webkit-linear-gradient(45deg, teal, #00cdac);
+}
+
+#clicky {
+  background: -webkit-linear-gradient(45deg,  red, #ef9cad);
 }
 
 #trivia {
@@ -76,9 +91,9 @@ p {
   background: -webkit-linear-gradient(45deg,  #537895, #09203f);
 }
 
-#gif {
+/* #gif {
   background: -webkit-linear-gradient(45deg,  coral, red);
-}
+} */
 
 #bulleted {
   background: -webkit-linear-gradient(45deg, #feeb10, #fe4010)
@@ -86,11 +101,11 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
-    position: absolute;
-    top: 40%;
+    /* top: 10%; */
   }
+
   #index-banner .section {
-    top: 10%;
+    top: 5%;
   }
 
   nav .brand-logo {
@@ -104,9 +119,6 @@ p {
     top: 0;
   }
 
-  .nav-wrapper {
-
-  }
 }
 
 
